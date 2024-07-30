@@ -1,6 +1,22 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-    content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
-    plugins: [require("daisyui")],
-  };
-  
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      backgroundImage: {
+        'custom-gradient': 'radial-gradient(circle, rgba(8, 123, 171, 1) 0%, rgb(2, 25, 44) 100%)',
+        'custom-image': "url('../src/assets/images/bgWalePorfolio.svg')",
+      },
+      fontFamily: {
+        playwrite: ['Playwrite CL', 'sans-serif'],
+        roboto: ['Roboto', 'sans-serif'],
+        zain: ['Zain', 'serif'],
+        zilla: ['Zilla Slab', 'serif'],
+      },
+    },
+  },
+  plugins: [require('daisyui')],
+};
