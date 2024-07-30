@@ -5,6 +5,7 @@ import Home from "../../components/views/Home";
 const Router = () => {
   return (
     <BrowserRouter>
+  
       <Routes>
         <Route path="/" element={<Home />}></Route>
       </Routes>
