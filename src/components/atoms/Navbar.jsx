@@ -3,12 +3,12 @@ import { Dialog, DialogPanel } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 const navigation = [
-  { name: "Home", href: "#" },
-  { name: "About me", href: "#" },
-  { name: "Portfolio", href: "#" },
-  { name: "Skills", href: "#" },
-  { name: "Resume", href: "#" },
-  { name: "Contact", href: "#" },
+  { name: "Home", href: "#hero" },
+  { name: "About me", href: "#aboutme" },
+  { name: "Portfolio", href: "#porfolio" },
+  { name: "Skills", href: "#skills" },
+  { name: "Resume", href: "#resume" },
+  { name: "Contact", href: "#contact" },
 ];
 
 export default function Example() {

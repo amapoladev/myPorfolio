@@ -4,7 +4,7 @@ import AboutmeImage from '../../assets/images/johanaDraw.svg';
 const Aboutme = () => {
   return (
     <>
-      <div className="bg-cyan-950 h-auto flex flex-col md:flex-row justify-center items-center py-12">
+      <div id="aboutme" className="bg-cyan-950 h-auto flex flex-col md:flex-row justify-center items-center py-12">
         <img
           src={AboutmeImage}
           alt="johana illustration"
