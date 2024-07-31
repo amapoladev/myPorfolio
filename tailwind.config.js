@@ -15,6 +15,7 @@ export default {
         roboto: ['Roboto', 'sans-serif'],
         zain: ['Zain', 'serif'],
         zilla: ['Zilla Slab', 'serif'],
+        sister: ['Love Ya Like A Sister', 'cursive']
       },
     },
   },
