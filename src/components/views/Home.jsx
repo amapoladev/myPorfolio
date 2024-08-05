@@ -1,14 +1,16 @@
-import React from 'react'
-import Header from '../molecules/Header'
-import Main from '../molecules/Main'
+import React from "react";
+import Header from "../molecules/Header";
+import Main from "../molecules/Main";
 
 const Home = () => {
   return (
     <>
-   <Header />
-   <Main />
+      <div className="bg-custom-gradient">
+        <Header />
+        <Main />
+      </div>
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

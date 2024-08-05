@@ -1,8 +1,7 @@
 module.exports = {
-    plugins: [
-      require("tailwindcss"),
-      require("autoprefixer"),
-      require("smoothscroll-polyfill").default,
-    ],
-  };
-  
+  plugins: [
+    require("tailwindcss"),
+    require("autoprefixer"),
+    require("smoothscroll-polyfill").default,
+  ],
+};
